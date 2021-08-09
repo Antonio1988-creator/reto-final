@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import './SearchFilters.scss';
 import { searchFiltersActions } from './_actions';
 
 class SearchFilters extends React.Component{
