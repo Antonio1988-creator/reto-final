@@ -6,8 +6,6 @@ import { searchFiltersActions } from '../../common/components/SearchFilters/_act
 import { DataTable } from '../DataTable/DataTable';
 import { MovieDetail } from '../MovieDetail/MovieDetail';
 
-import './MovieFinder.scss';
-
 class MovieFinder extends React.Component{
 	constructor(props){
 		super(props);
