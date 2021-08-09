@@ -1,0 +1,52 @@
+.datatable-container{
+
+	.datatable{
+		width: 100%;
+		margin-top: 20px;
+
+		tr:nth-child(even){
+			background-color: #f2f2f2
+		}
+
+		td{
+			padding: 10px;
+		}
+	
+		thead{
+			background-color: #333;
+			color: #DFDFDF;
+	
+			td{
+				font-weight: bold;
+			}
+		}
+
+		.movie{
+			&:hover{
+				cursor: pointer;
+				background: #CCC;
+			}
+		}
+
+		.no-results{
+			font-style: italic;
+		}
+	}
+
+	.pagination-container{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+		justify-content: flex-end;
+		margin-top: 20px;
+
+
+		.sepparation-dots{
+			margin: 10px 0 0 20px;
+		}
+
+		button{
+			margin: 0 0 0 20px;
+		}
+	}
+}

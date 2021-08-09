@@ -1,0 +1,28 @@
+.movie-detail-container{
+	padding: 20px 0;
+
+	h4{
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.m-row-bot{
+		margin-bottom: 50px;
+
+		.plot{
+			width: auto;
+			padding: 0 20px;
+			float: left;
+			margin-left: 50px;
+		}
+	}
+
+	.poster-container{
+		width: 300px;
+		height: 445px;
+		margin-right: 20px;
+		float: left;
+	}
+
+}
